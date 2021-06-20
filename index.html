@@ -5,13 +5,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet" />
+
+    <style>
+        .title-new {
+            font-family: 'Tangerine', cursive;
+        }
+    </style>
     <title>Новый сайт</title>
 </head>
 
 <body>
-    <h1>Hello world!</h1>
-    <img src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
-        alt="Macbook Air на сером деревянном столе" width="400" />
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="current">
+                    <a href="./index.html">Главная страница</a>
+                </li>
+                <li><a href="./second.html">Вторая страница</a></li>
+                <li>Третья страница</li>
+            </ul>
+        </nav>
+        <h1 class="title">Hello world!</h1>
+        <h1 class="title-new">Making the Web Beautiful!</h1>
+        <p class="title-descr">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum facilis obcaecati
+            temporibus blanditiis
+            praesentium distinctio mollitia porro totam aliquid voluptatibus rerum neque, hic dolore quibusdam itaque
+            doloremque ad earum ea.</p>
+    </header>
+    <main>
+        <img src="https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg"
+            alt="Macbook Air на сером деревянном столе" width="400" />
+        <article>
+            <h1>FAQ</h1>
+            <table>
+                <caption>Table-crable</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">kinds of items</th>
+                        <th colspan="4">properties</th>
+                    </tr>
+                    <tr>
+                        <th>Color</th>
+                        <th>width</th>
+                        <th>height</th>
+                        <th>length</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>name item 1</td>
+                        <td>red</td>
+                        <td>100</td>
+                        <td>135</td>
+                        <td>112</td>
+                    </tr>
+                    <tr>
+                        <td>name item 2</td>
+                        <td>blue</td>
+                        <td>100</td>
+                        <td>142</td>
+                        <td>115</td>
+                    </tr>
+                    <tr>
+                        <td>name item 3</td>
+                        <td>grean</td>
+                        <td>120</td>
+                        <td>113</td>
+                        <td>120</td>
+                    </tr>
+                </tbody>
+            </table>
+            <dl>
+                <dt>What do we want?</dt>
+                <dd>Our data.</dd>
+                <dt>When do we want it?</dt>
+                <dd>Now.</dd>
+                <dt>Where is it?</dt>
+                <dd>We are not sure.</dd>
+            </dl>
+        </article>
+        <article class="post">
+            <h1 class="post-title">Lorem ipsum dolor sit amet</h1>
+            <p class="post-text align-right">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+                veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+                cumque fuga facere labore quo id necessitatibus quaerat rerum.
+            </p>
+
+            <p class="post-text align-justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+                veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+                cumque fuga facere labore quo id necessitatibus quaerat rerum.
+            </p>
+        </article>
+        <pre>
+          А ты когда-то слушал тишину?
+          Как жаль, что ничего ты не услышал,
+          Лишь тронь её беззвучную струну,
+          И ты поймёшь, что можно даже тише.
+        </pre>
+
+        <pre>
+          А ты когда-то спорил с тишиной?
+          И не пытайся, я однажды спорил,
+          Как будто смыло штормовой волной,
+          Противоречия всех моих историй.
+        </pre>
+
+        <pre>
+          А ты когда-то видел тишину?
+          Как идёт дождь, или летают птицы,
+          А может видел ночью синеву,
+          Или улыбку на любимых лицах.
+        </pre>
+    </main>
+    <footer>
+        <p>Все права защищены &copy; Lex, 2020</p>
+    </footer>
 </body>
 
 </html>
